@@ -1,0 +1,52 @@
+.heading {
+  &-primary {
+    color: var(--dark-blue);
+    font-size: 2.4rem;
+    font-weight: 900;
+
+    @include respond(phone) {
+      font-size: 2rem;
+    }
+  }
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+  fill: hsl(224, 23%, 55%);
+  background-color: #b5c5f0;
+  padding: 1rem;
+  border-radius: 50%;
+
+  &-beamed-note {
+    grid-row: 1 / span 2;
+    align-self: center;
+  }
+}
+
+.btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  &-primary {
+    padding: 1.6rem;
+    background-color: var(--bright-blue);
+    border-radius: 0.8rem;
+    width: 100%;
+    color: var(--very-pale-blue);
+    font-weight: 700;
+    font-size: 1.4rem;
+    font-family: inherit;
+    box-shadow: 0 2rem 4rem 0 rgba(56, 41, 224, 0.3);
+
+    &:hover {
+      background-color: hsl(245, 84%, 64%);
+    }
+
+    @include respond(phone) {
+      padding: 1.2rem;
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -11,6 +11,6 @@ This is a challenge from Frontend Mentor. We were supposed to build an order sum
 1. HTML
 2. CSS (Flexbox, Grid, SASS)
 
-## Live link to the QR code component
+## Live link to the Order Summary Card
 
 [https://eric-order-summary-card.netlify.app/](https://eric-order-summary-card.netlify.app/ "Frontend Mentor - Product card component")
